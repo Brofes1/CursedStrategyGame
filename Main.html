@@ -1,0 +1,23 @@
+<style type="text/css">
+    body { 
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px
+    }
+</style>
+
+<canvas id="mainCanvas"></canvas>
+
+
+<script src="Data.js"></script>
+
+<script src="Modules/Vector2.js"></script> <!--Uses nothing-->
+<script src="Modules/Faction.js"></script> <!--Uses nothing-->
+<script src="Modules/ViewSelector.js"></script> <!--Uses nothing-->
+
+<script src="Modules/Unit.js"></script> <!--Uses Data.js, Faction.js-->
+
+<script src="Modules/Grid.js"></script> <!--Uses Data.js, Vector2.js, Unit.js-->
+
+<script src="Main.js"></script> <!--Uses Unit.js, Vector2.js, Grid.js, Viewselector.js, Faction.js, Data.js-->
